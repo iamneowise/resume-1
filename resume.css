@@ -1,0 +1,53 @@
+.cointain{
+display: flex;
+height:260px ;
+background-color:lightsteelblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+  display: flex;
+  height:120px ;
+  background-color: tomato;
+  }
+
+img {
+  border-radius: 50%;
+}
+
+.content{
+grid-template-areas:"About  Education"
+                     "skills  experience";
+display:grid;
+margin:auto;
+}
+
+.About {
+  grid-area: "About";
+  margin-left: 2px;
+  border: 2px solid rgb(0, 0, 8);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .Education{
+    grid-area: "Education";
+    margin-left: 10px;
+    border: 2px solid rgb(0, 0, 8);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .skills{
+   
+    grid-area: "skills";
+    margin-left: 2px;
+    border: 2px solid rgb(0, 0, 8); 
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+  }
+  .experience{
+    grid-area: "experience";
+    margin-left: 10px;
+    border: 2px solid rgb(0, 0, 8);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  }
